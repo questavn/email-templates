@@ -1,0 +1,56 @@
+<html>
+
+  <head>
+    <title>Weather</title>
+    <link rel="icon" href="/img/weather.png" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script src="/js/app.js"></script>
+  </head>
+
+  <body>
+    <div class="content-wrap">
+
+      <div class="title">Thư mời tham gia vào khóa thi</div>
+
+      <div class="content">
+
+        <div>Chào <span class="name">{{name}}</span>,</div>
+
+        <div>Chúng tôi xin mời bạn tham gia vào khóa thi
+          <span class="name">{{testName}}</span>.
+        </div>
+
+        <div>Thông tin chi tiết về khóa thi: </div>
+        <ul>
+          <li><span class="title-detail">Tên khóa thi:</span> {{testName}}</li>
+          <li><span class="title-detail">Mã khóa thi:</span> {{code}} </li>
+          <li><span class="title-detail">Mô tả:</span> {{description}}</li>
+          <li><span class="title-detail">Đường link tham gia:</span>
+            <a href="{{link}}" target="_blank">{{link}}</a>
+          </li>
+
+        </ul>
+
+        <div>
+          Nếu bạn có bất kỳ câu hỏi hoặc cần hỗ trợ thêm, xin vui lòng liên hệ
+          với chúng tôi qua địa chỉ email
+          <a href="mailto:developer@iquiz.vn">developer@iquiz.vn</a>
+        </div>
+
+        <div class="footer">
+          <div>
+            <div>
+              Trân trọng,
+            </div>
+            <div>iquiz</div>
+          </div>
+          <div >
+            <img class="logo" src="logo.svg" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+</html>
