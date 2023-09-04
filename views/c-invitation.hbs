@@ -18,21 +18,21 @@
   <body>
     <div class="content-wrap">
 
-      <div class="title">Thư mời tham gia vào lớp học</div>
+      <div class="title">Thư mời tham gia lớp học</div>
 
       <div class="content">
 
         <div>Chào <span class="name">{{name}}</span>,</div>
 
         <div>Chúng tôi xin mời bạn tham gia vào lớp học
-          <span class="name">{{className}}</span>.
+          <span class="name">{{cls.name}}</span>.
         </div>
 
         <div>Thông tin chi tiết về lớp học: </div>
         <ul>
-          <li><span class="title-detail">Tên lớp học:</span> {{className}}</li>
-          <li><span class="title-detail">Mã lớp học:</span> {{code}} </li>
-          <li><span class="title-detail">Mô tả:</span> {{description}}</li>
+          <li><span class="title-detail">Tên lớp học:</span> {{cls.name}}</li>
+          <li><span class="title-detail">Mã lớp học:</span> {{cls.code}} </li>
+          <li><span class="title-detail">Mô tả:</span> {{cls.description}}</li>
           <li><span class="title-detail">Đường link tham gia:</span>
             <a href="{{link}}" target="_blank">{{link}}</a>
           </li>
